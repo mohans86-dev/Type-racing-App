@@ -6,7 +6,7 @@ class SocketClient {
 
   SocketClient._internal() {
     // socket = IO.io('http://192.168.1.64:3001', <String, dynamic>{
-    socket = IO.io('https://type-racing-app.onrender.com:3001', <String, dynamic>{
+    socket = IO.io('https://type-racing-app.onrender.com', <String, dynamic>{
       'transports': ['websocket'],
       'autoConnect': false,
     });
