@@ -47,6 +47,6 @@ This is a real-time multiplayer typing race game that combines the thrill of spe
 ### Backend Setup (Node.js)
 1. Clone the repo:
 2. 
-   git clone https://github.com/your-username/typing-game.git
-   cd typing-game/server
-   npm start
+   git clone https://github.com/your-username/typing-game.git<br>
+   cd typing-game/server<br>
+   npm start<br>
