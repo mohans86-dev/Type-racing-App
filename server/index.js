@@ -5,7 +5,7 @@ const { getSentence } = require("./api/getSentence");
 const Game = require("./models/Game");
 const dotenv = require("dotenv");
 
-// const connectDB = require("./db");
+ const connectDB = require("./db");
 const mongoose = require("mongoose");
 const uri = "mongodb://localhost:27017/typing-game";
 
@@ -189,19 +189,21 @@ const calculateWPM = (endTime, startTime, player) => {
   return WPM;
 };
 
-// connect to mongodb
-// connectDB();
-mongoose
-  .connect(uri)
-  .then(() => {
-    console.log("MongoDB connected");
-  })
-  .catch((err) => {
-    console.error("MongoDB connection error:", err);
-  });
+// connect to mongodb cloud
+ connectDB();
+
+ // connect to mongodb local
+//mongoose
+//  .connect(uri)
+//  .then(() => {
+//    console.log("MongoDB connected");
+//  })
+//  .catch((err) => {
+//    console.error("MongoDB connection error:", err);
+//  });
 
 // listen to server
-const PORT = 3001;
+const PORT = process.env.PORT;
 server.listen(PORT, () => {
   console.log(`Server started and running on port ${PORT}`);
 });
