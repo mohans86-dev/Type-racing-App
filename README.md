@@ -52,4 +52,5 @@ This is a real-time multiplayer typing race game that combines the thrill of spe
    npm start<br>
 
 ## Demo
+Download: https://github.com/mohans86-dev/Type-racing-App/blob/c6d94f0033f703fb271004c4fa667f421dd22312/typeracer.apk
 
