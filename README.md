@@ -51,4 +51,7 @@ This is a real-time multiplayer typing race game that combines the thrill of spe
    cd typing-game/server<br>
    npm start<br>
 
+## Demo
+Downnload: https://github.com/mohans86-dev/Type-racing-App/releases/download/v1.0.0/typeracer.apk
+
 
