@@ -50,3 +50,6 @@ This is a real-time multiplayer typing race game that combines the thrill of spe
    git clone https://github.com/your-username/typing-game.git<br>
    cd typing-game/server<br>
    npm start<br>
+
+## Demo
+
